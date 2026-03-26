@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Video Poster Fullscreen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Pantalla completa y centrado */
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    /* Contenedor tipo póster */
+    .poster {
+      position: relative;
+      width: 300px;        /* ancho tipo póster */
+      max-width: 90%;
+      cursor: pointer;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.8);
+      transition: transform 0.3s ease;
+    }
+
+    .poster:hover {
+      transform: scale(1.03);
+    }
+
+    .poster img {
+      width: 100%;
+      display: block;
+    }
+
+    /* Botón play sobre la imagen */
+    .poster::after {
+      content: '▶';
+      font-size: 60px;
+      color: rgba(255,255,255,0.85);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+    }
+
+    /* Iframe fullscreen oculto inicialmente */
+    iframe {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: none; /* oculto al inicio */
+      z-index: 9999;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Thumbnail tipo póster -->
+  <div class="poster" onclick="playVideo()">
+    <img src="https://image.tmdb.org/t/p/original/xMaVwTfgETmPs5yp3lNK5SeWCtB.jpg" alt="Thumbnail del video">
+  </div>
+
+  <!-- Iframe full screen -->
+  <iframe id="videoFrame" src="https://go.screenpal.com/player/cOVXYVnrxJE" allowfullscreen></iframe>
+
+  <script>
+    function playVideo() {
+      // Oculta el poster
+      document.querySelector('.poster').style.display = 'none';
+      // Muestra el iframe
+      const iframe = document.getElementById('videoFrame');
+      iframe.style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>

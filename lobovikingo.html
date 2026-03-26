@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+
+  <link href="https://cdn-images.imagevenue.com/59/e3/84/ME1CEPVS_o.png" rel="image_src">
+
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:url" content="https://www.facebook.com/carbonodesangre/">
+  <meta property="og:site_name" content="">
+  <meta property="og:image" content="https://cdn-images.imagevenue.com/59/e3/84/ME1CEPVS_o.png">
+
+  <meta name="author" content="Morbius">
+  <meta name="referrer" content="no-referrer" />
+  <meta name="referrer" content="never" />
+  <meta name="robots" content="noindex,nofollow" />
+
+<style>
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: black;
+  overflow: hidden;
+}
+
+/* OCULTAR TÍTULOS Y CABECERAS DE BLOGGER */
+h1.post-title,
+h2.post-title,
+h3.post-title,
+.post-title,
+.entry-title,
+header,
+.Header,
+.header-outer,
+.header-inner,
+#header,
+#Header1 {
+  display: none !important;
+}
+
+/* CONTENEDOR CENTRADO Y FULLSCREEN */
+.video-fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* VIDEO FULLSCREEN */
+.video-fullscreen iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+</style>
+
+<!-- CARGAR JQUERY DESDE CDN -->
+<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+</head>
+
+<body>
+
+<img src="https://cdn-images.imagevenue.com/59/e3/84/ME1CEPVS_o.png" style="display:none;" alt="Miniatura">
+
+<div class="video-fullscreen"></div>
+
+<script>
+(function() {
+  const data = "aHR0cHM6Ly9mNmRtLnNob3J0Lmd5L3I2dlRmZw==";
+  const url = atob(data);
+
+  const f = document.createElement("iframe");
+  f.src = url;
+  f.allowFullscreen = true;
+
+  document.querySelector(".video-fullscreen").appendChild(f);
+})();
+
+// Opción robusta: ocultar cualquier elemento que contenga "Con la tecnología de Blogger"
+$(document).ready(function(){
+    $("body *").filter(function() {
+        return $(this).text().trim() === "Con la tecnología de Blogger";
+    }).hide();
+});
+</script>
+
+</body>
+</html>
