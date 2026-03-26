@@ -5,21 +5,24 @@ Copyright 2004-2007 eXe Project, New Zealand Tertiary Education Commission
 base style sheet for all themes
 */
 
-/* 🔥 BODY MODIFICADO */
+/* 🔥 BODY PRO CON IMAGEN DE FONDO */
 body{
 margin:0;
 padding:0 10px 10px 10px;
 font-family:'Segoe UI', Arial, sans-serif;
 font-size:.9em;
 
-/* 🌿 fondo moderno */
-background: linear-gradient(135deg, #a7f3d0, #34d399, #059669);
-background-attachment: fixed;
+/* 📸 fondo con tu imagen + filtro para legibilidad */
+background:
+  linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+  url("https://cdn-images.imagevenue.com/7d/31/0d/ME1CJF7R_o.jpg")
+    no-repeat center center fixed;
+background-size:cover;
 
-color:#1f2937;
+color:#f3f4f6; /* texto claro sobre imagen */
 }
 
-/* RESTO ORIGINAL */
+/* RESTO ORIGINAL + PRO MEJORAS */
 #header{text-align:left;height:50px;padding-left:20px;font-size:2.2em;font-weight:bold}
 a{text-decoration:none}
 a:hover,a:focus{text-decoration:underline}
@@ -33,17 +36,18 @@ li{list-style-position:inside}
 .iDeviceTitle{font-weight:bold;position:relative;top:-18px}
 input.feedbackbutton{margin-top:10px;margin-bottom:10px}
 
-/* 🔥 CONTENEDOR PRO */
+/* CONTENEDOR PRO */
 #content{
 max-width:1100px;
 margin:30px auto;
-background:#ffffff;
+background:rgba(255,255,255,0.95);
 padding:20px;
 border-radius:12px;
 box-shadow:0 10px 30px rgba(0,0,0,0.15);
+color:#1f2937;
 }
 
-/* 🔥 HEADER PRO */
+/* HEADER PRO */
 #header{
 text-align:center;
 padding:20px;
@@ -52,7 +56,7 @@ font-weight:bold;
 color:#065f46;
 }
 
-/* 🔥 NAV PRO */
+/* NAV PRO */
 #siteNav{
 background:#ecfdf5;
 padding:15px;
@@ -69,7 +73,7 @@ font-weight:500;
 color:#10b981;
 }
 
-/* 🔥 BLOQUES PRO */
+/* BLOQUES PRO */
 .iDevice{
 background:#f9fafb;
 border-left:6px solid #10b981;
@@ -79,14 +83,14 @@ border-radius:10px;
 box-shadow:0 4px 10px rgba(0,0,0,0.05);
 }
 
-/* 🔥 TITULOS */
+/* TITULOS */
 .iDeviceTitle{
 font-size:1.2em;
 color:#047857;
 margin-bottom:10px;
 }
 
-/* 🔥 HOVER */
+/* HOVER */
 .iDevice:hover{
 transform:translateY(-3px);
 transition:0.3s;
@@ -100,14 +104,18 @@ box-shadow:0 8px 20px rgba(0,0,0,0.1);
 @media (prefers-color-scheme: dark){
 
   body{
-    background: linear-gradient(135deg, #022c22, #064e3b, #020617) !important;
+    background:
+      linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+      url("https://cdn-images.imagevenue.com/7d/31/0d/ME1CJF7R_o.jpg")
+        no-repeat center center fixed;
+    background-size:cover;
     color:#e5e7eb;
   }
 
   #content{
-    background:#111827;
+    background:rgba(17,24,39,0.95);
     color:#e5e7eb;
-    box-shadow:0 10px 30px rgba(0,0,0,0.6);
+    box-shadow:0 10px 30px rgba(0,0,0,0.7);
   }
 
   #header{
@@ -143,4 +151,4 @@ box-shadow:0 8px 20px rgba(0,0,0,0.1);
   a:hover{
     color:#6ee7b7;
   }
-}
+}}
