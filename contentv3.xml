@@ -13,7 +13,7 @@
   <string role="key" value="_addSearchBox"></string>
   <bool value="0"></bool>
   <string role="key" value="_author"></string>
-  <unicode value="NMBV"></unicode>
+  <unicode value="ABGR"></unicode>
   <string role="key" value="_backgroundImg"></string>
   <unicode value=""></unicode>
   <string role="key" value="_contextMode"></string>
@@ -85,7 +85,7 @@
    <unicode value="Unidad"></unicode>
   </list>
   <string role="key" value="_name"></string>
-  <unicode value="sdagreenw"></unicode>
+  <unicode value="sagreen"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
   <int value="22"></int>
   <string role="key" value="_nextNodeId"></string>
@@ -96,7 +96,7 @@
    <instance class="exe.engine.node.Node" reference="3">
     <dictionary>
      <string role="key" value="_title"></string>
-     <unicode value="Título. Descripción de la Sda"></unicode>
+     <unicode value="Título. Descripción de la SA"></unicode>
      <string role="key" value="idevices"></string>
      <list>
       <instance class="exe.engine.jsidevice.JsIdevice" reference="1">
@@ -175,7 +175,7 @@
            <string role="key" value="anchors_linked_from_fields"></string>
            <dictionary></dictionary>
            <string role="key" value="content_w_resourcePaths"></string>
-           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;La situación de aprendizaje titulada “&lt;strong&gt;Dr. Strangelove or: How I Learned to Greenwash My Conscience&lt;/strong&gt;” invita a los estudiantes a reflexionar sobre el fenómeno del greenwashing dentro del contexto del marketing empresarial. A través de un enfoque crítico y creativo, los alumnos analizarán cómo las empresas emplean estrategias de marketing engañosas para aparentar un compromiso con el medio ambiente sin implementar prácticas realmente sostenibles. Se les presentará un escenario ficticio ( y/o real), donde deberán identificar tácticas de greenwashing en diversas industrias y desarrollar propuestas para contrarrestar estos efectos. Además, se promoverá la discusión sobre el impacto ético y social de estas prácticas, alentando a los estudiantes a cuestionar el papel de las corporaciones en la sostenibilidad real. La actividad fomentará el análisis de casos actuales y el desarrollo de habilidades para evaluar la autenticidad de las políticas medioambientales.&lt;/p&gt;
+           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;La situación de aprendizaje titulada “&lt;strong&gt;Dr. Strangelove or: How I Learned to Greenwash My Conscience&lt;/strong&gt;” invita a los estudiantes a reflexionar sobre el fenómeno del greenwashing dentro del contexto del marketing empresarial. A través de un enfoque crítico y creativo, el alumnado analizará cómo las empresas emplean estrategias de marketing engañosas para aparentar un compromiso con el medio ambiente sin implementar prácticas realmente sostenibles. Se les presentará un escenario ficticio ( y/o real), donde deberán identificar tácticas de greenwashing en diversas industrias y desarrollar propuestas para contrarrestar estos efectos. Además, se promoverá la discusión sobre el impacto ético y social de estas prácticas, alentando a los estudiantes a cuestionar el papel de las corporaciones en la sostenibilidad real. La actividad fomentará el análisis de casos actuales y el desarrollo de habilidades para evaluar la autenticidad de las políticas medioambientales.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
            <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
            <int value="4"></int>
@@ -1171,7 +1171,7 @@
      <string role="key" value="exportType"></string>
      <string value="website"></string>
      <string role="key" value="last_full_node_path"></string>
-     <string value="exe-node:T%C3%ADtulo.%20Descripci%C3%B3n%20de%20la%20Sda"></string>
+     <string value="exe-node:T%C3%ADtulo.%20Descripci%C3%B3n%20de%20la%20SA"></string>
      <string role="key" value="parent"></string>
      <none></none>
      <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -1719,7 +1719,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:T%C3%ADtulo.%20Descripci%C3%B3n%20de%20la%20Sda:1.%20Intenci%C3%B3n%20educativa"></string>
+        <string value="exe-node:T%C3%ADtulo.%20Descripci%C3%B3n%20de%20la%20SA:1.%20Intenci%C3%B3n%20educativa"></string>
         <string role="key" value="parent"></string>
         <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -2639,7 +2639,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:T%C3%ADtulo.%20Descripci%C3%B3n%20de%20la%20Sda:2.%20Elementos%20curriculares"></string>
+        <string value="exe-node:T%C3%ADtulo.%20Descripci%C3%B3n%20de%20la%20SA:2.%20Elementos%20curriculares"></string>
         <string role="key" value="parent"></string>
         <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -3143,7 +3143,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:T%C3%ADtulo.%20Descripci%C3%B3n%20de%20la%20Sda:3.%20Metodolog%C3%ADas%20activas"></string>
+        <string value="exe-node:T%C3%ADtulo.%20Descripci%C3%B3n%20de%20la%20SA:3.%20Metodolog%C3%ADas%20activas"></string>
         <string role="key" value="parent"></string>
         <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -3161,7 +3161,7 @@
          <instance class="exe.engine.jsidevice.JsIdevice" reference="42">
           <dictionary>
            <string role="key" value="_title"></string>
-           <unicode value="planes y programas del CIFP Cerdeño a los que la SA se vincula "></unicode>
+           <unicode value="Planes y programas del Ies Dr. Fleming a los que la SA se vincula "></unicode>
            <string role="key" value="_attributes"></string>
            <list>
             <tuple>
@@ -3235,8 +3235,8 @@
               <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Proyecto de sostenibilidad, consumo responsable del centro educativo.&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Proyecto &quot;Hacia el residuo cero&quot;&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Proyecto de sostenibilidad, consumo responsable del centro educativo.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Proyecto &quot;EcoFleming&quot;&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Plan Digital de Centro&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;"></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -3301,7 +3301,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:T%C3%ADtulo.%20Descripci%C3%B3n%20de%20la%20Sda:4.%20Vinculaci%C3%B3n%20con%20los%20proyectos%20y%20programas%20del%20centro"></string>
+        <string value="exe-node:T%C3%ADtulo.%20Descripci%C3%B3n%20de%20la%20SA:4.%20Vinculaci%C3%B3n%20con%20los%20proyectos%20y%20programas%20del%20centro"></string>
         <string role="key" value="parent"></string>
         <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -3455,7 +3455,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:T%C3%ADtulo.%20Descripci%C3%B3n%20de%20la%20Sda:5.%20Actividades%20complementarias%20y%20extraescolares"></string>
+        <string value="exe-node:T%C3%ADtulo.%20Descripci%C3%B3n%20de%20la%20SA:5.%20Actividades%20complementarias%20y%20extraescolares"></string>
         <string role="key" value="parent"></string>
         <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -3677,7 +3677,7 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;th&gt;Título&lt;/th&gt;
-&lt;td&gt;sa-greenwashing&lt;/td&gt;
+&lt;td&gt;SA-Greenwashing&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;th&gt;Descripción&lt;/th&gt;
@@ -3756,7 +3756,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:T%C3%ADtulo.%20Descripci%C3%B3n%20de%20la%20Sda:6.%20Atribuci%C3%B3n%20y%20fichero%20descargable."></string>
+        <string value="exe-node:T%C3%ADtulo.%20Descripci%C3%B3n%20de%20la%20SA:6.%20Atribuci%C3%B3n%20y%20fichero%20descargable."></string>
         <string role="key" value="parent"></string>
         <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -3790,7 +3790,7 @@
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="21"></reference>
+  <reference key="3"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -3799,7 +3799,7 @@
     <string role="key" value="coverage"></string>
     <unicode value=""></unicode>
     <string role="key" value="creator"></string>
-    <unicode value="NMBV"></unicode>
+    <unicode value="ABGR"></unicode>
     <string role="key" value="date"></string>
     <unicode value=""></unicode>
     <string role="key" value="description"></string>
@@ -4171,7 +4171,7 @@
             <string role="key" value="extensiontype_"></string>
             <none></none>
             <string role="key" value="valueOf_"></string>
-            <string value="BEGIN:VCARD VERSION:3.0 FN:NMBV EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:ABGR EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
            </dictionary>
           </instance>
          </list>
@@ -4311,7 +4311,7 @@
             <string role="key" value="extensiontype_"></string>
             <none></none>
             <string role="key" value="valueOf_"></string>
-            <string value="BEGIN:VCARD VERSION:3.0 FN:NMBV EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:ABGR EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
            </dictionary>
           </instance>
          </list>
@@ -4768,7 +4768,7 @@
             <string role="key" value="extensiontype_"></string>
             <none></none>
             <string role="key" value="valueOf_"></string>
-            <string value="BEGIN:VCARD VERSION:3.0 FN:NMBV EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:ABGR EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
            </dictionary>
           </instance>
          </list>
@@ -4908,7 +4908,7 @@
             <string role="key" value="extensiontype_"></string>
             <none></none>
             <string role="key" value="valueOf_"></string>
-            <string value="BEGIN:VCARD VERSION:3.0 FN:NMBV EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:ABGR EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
            </dictionary>
           </instance>
          </list>
